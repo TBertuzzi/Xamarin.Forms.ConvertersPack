@@ -11,6 +11,7 @@
     <PackageTags>xamarin xamarin.forms xamarin forms validation converter behavior behaviors converters</PackageTags>
     <PackageProjectUrl>https://github.com/TBertuzzi/Xamarin.Forms.ConvertersPack</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TBertuzzi/Xamarin.Forms.ConvertersPack</RepositoryUrl>
+    <PackageIconUrl>https://github.com/TBertuzzi/Xamarin.Forms.ConvertersPack/blob/master/Resources/ConvertersPackIcon.png?raw=true</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
