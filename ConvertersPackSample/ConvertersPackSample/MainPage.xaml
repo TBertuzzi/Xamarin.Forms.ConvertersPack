@@ -14,16 +14,20 @@
     </ContentPage.Resources>
     
     <StackLayout>
-     
+
+         <Label Text="Enter your name"></Label>
         
-        <Label Text="Enter your name"></Label>
-           <Entry Placeholder="Your name" 
-              Text="{Binding Name}"></Entry>
+         <Entry Placeholder="Your name" Text="{Binding Name}"></Entry>
+        
          <Label Text="{Binding Name, Converter={StaticResource UpperTextConverter}}"></Label>
+        
          <Label Text="{Binding Name, Converter={StaticResource LowerTextConverter}}"></Label>
+        
          <Label Text="Enter your balance"></Label>
+        
          <Entry Placeholder="Money" 
               Keyboard="Numeric" 
               Text="{Binding Money, Converter={StaticResource CurrencyConverter}}"></Entry>
+        
     </StackLayout>
 </ContentPage>
