@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>tbertuzzi</Authors>
+    <Company>KBits</Company>
+    <Description>Useful converters for Xamarin.Forms</Description>
+    <Copyright>Copyright ©2018 KBits</Copyright>
+    <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
+    <PackageTags>xamarin xamarin.forms xamarin forms validation converter behavior behaviors converters</PackageTags>
+    <PackageProjectUrl>https://github.com/TBertuzzi/Xamarin.Forms.ConvertersPack</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TBertuzzi/Xamarin.Forms.ConvertersPack</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
