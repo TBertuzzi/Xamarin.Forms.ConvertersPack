@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:ConvertersPackSample"
+              xmlns:converterPack="clr-namespace:Xamarin.Forms.ConvertersPack;assembly=Xamarin.Forms.ConvertersPack"
+             x:Class="ConvertersPackSample.MainPage" Padding="0,50,0,0" >
+    
+     <ContentPage.Resources>
+        <ResourceDictionary>
+         <converterPack:CurrencyConverter x:Key="CurrencyConverter" />
+         <converterPack:UpperTextConverter x:Key="UpperTextConverter" />
+        <converterPack:LowerTextConverter x:Key="LowerTextConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <StackLayout>
+     
+        
+        <Label Text="Enter your name"></Label>
+           <Entry Placeholder="Your name" 
+              Text="{Binding Name}"></Entry>
+         <Label Text="{Binding Name, Converter={StaticResource UpperTextConverter}}"></Label>
+         <Label Text="{Binding Name, Converter={StaticResource LowerTextConverter}}"></Label>
+         <Label Text="Enter your balance"></Label>
+         <Entry Placeholder="Money" 
+              Keyboard="Numeric" 
+              Text="{Binding Money, Converter={StaticResource CurrencyConverter}}"></Entry>
+    </StackLayout>
+</ContentPage>
