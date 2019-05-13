@@ -8,7 +8,7 @@ Package with multiple converters for Xamarin.Forms.
 
 |Name|Info|
 | ------------------- | :------------------: |
-|Xamarin.Forms.ConvertersPack|[![NuGet](https://img.shields.io/badge/nuget-1.0.0-blue.svg)](https://www.nuget.org/packages/Xamarin.Forms.ConvertersPack/)|
+|Xamarin.Forms.ConvertersPack|[![NuGet](https://buildstats.info/nuget/Xamarin.Forms.ConvertersPack)](https://www.nuget.org/packages/Xamarin.Forms.ConvertersPack/)|
 
 **Platform Support**
 
