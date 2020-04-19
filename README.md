@@ -68,6 +68,7 @@ You just need to add the reference in your xaml file.
 * **LowerTextConverter** : Converts your text to lowercase.
 * **NullToBooleanConverter** : Checks the value if it is null and returns true or false.
 * **PlaceholderConverter** : Replaces a null, empty or whitespace value with placeholder text.
+* **RoundedNumberConverter** : Rounds a decimal or double value.
 * **UpperTextConverter** : Converts your text to uppercase.
 
 
