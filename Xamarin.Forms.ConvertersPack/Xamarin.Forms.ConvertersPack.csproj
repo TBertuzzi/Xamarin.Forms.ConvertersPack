@@ -13,10 +13,6 @@
     <RepositoryUrl>https://github.com/TBertuzzi/Xamarin.Forms.ConvertersPack</RepositoryUrl>
     <PackageIconUrl>https://github.com/TBertuzzi/Xamarin.Forms.ConvertersPack/blob/master/Resources/ConvertersPackIcon.png?raw=true</PackageIconUrl>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Converters\" />
-  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>

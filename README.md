@@ -57,6 +57,7 @@ You just need to add the reference in your xaml file.
 
 * **CurrencyConverter** : Converts your entry to a money field.
 * **DecimalConverter** : Decimal Converter.
+* **EmptyToBooleanConverter** : Return true if a text value is null or empty.
 * **EqualsConverter** : Compare if two fields are the equals.
 * **HasDataConverter** : Returns whether an object or a list has data.
 * **HexToColorConverter** : Converts hexadecimal to color.
