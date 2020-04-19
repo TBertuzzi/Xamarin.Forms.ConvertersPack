@@ -7,8 +7,16 @@ namespace Xamarin.Forms.ConvertersPack.Converters
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value == null) return parameter;
-            if (string.IsNullOrWhiteSpace(value.ToString())) return parameter;
+            if (value == null)
+            {
+                return parameter;
+            }
+
+            if (string.IsNullOrWhiteSpace(value.ToString()))
+            {
+                return parameter;
+            }
+
             return value;
         }
 
