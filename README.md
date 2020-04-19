@@ -67,6 +67,7 @@ You just need to add the reference in your xaml file.
 * **ItemTappedEventArgsConverter** : Converts a selected item to an object. Ideal for Listview.
 * **LowerTextConverter** : Converts your text to lowercase.
 * **NullToBooleanConverter** : Checks the value if it is null and returns true or false.
+* **PlaceholderConverter** : Replaces a null, empty or whitespace value with placeholder text.
 * **UpperTextConverter** : Converts your text to uppercase.
 
 
