@@ -57,6 +57,7 @@ You just need to add the reference in your xaml file.
 
 * **CurrencyConverter** : Converts your entry to a money field.
 * **DecimalConverter** : Decimal Converter.
+* **EmptyToBooleanConverter** : Return true if a text value is null or empty.
 * **EqualsConverter** : Compare if two fields are the equals.
 * **HasDataConverter** : Returns whether an object or a list has data.
 * **HexToColorConverter** : Converts hexadecimal to color.
@@ -66,6 +67,8 @@ You just need to add the reference in your xaml file.
 * **ItemTappedEventArgsConverter** : Converts a selected item to an object. Ideal for Listview.
 * **LowerTextConverter** : Converts your text to lowercase.
 * **NullToBooleanConverter** : Checks the value if it is null and returns true or false.
+* **PlaceholderConverter** : Replaces a null, empty or whitespace value with placeholder text.
+* **RoundedNumberConverter** : Rounds a decimal or double value.
 * **UpperTextConverter** : Converts your text to uppercase.
 
 
