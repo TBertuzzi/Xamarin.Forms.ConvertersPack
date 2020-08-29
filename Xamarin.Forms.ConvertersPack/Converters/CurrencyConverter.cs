@@ -9,7 +9,7 @@ namespace Xamarin.Forms.ConvertersPack
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             NumberFormatInfo nfi = culture.NumberFormat;
-            return Decimal.Parse(value.ToString()).ToString("C");
+            return Decimal.Parse(value.ToString()).ToString("C", nfi);
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
